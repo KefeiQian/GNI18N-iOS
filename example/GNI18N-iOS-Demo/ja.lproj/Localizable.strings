@@ -1,0 +1,24 @@
+/* 
+  Localizable.strings
+  swift-ui-demo
+
+  Created by Kefei Qian on 2022/2/9.
+  
+*/
+
+"change-language-button" = "言葉を変わる";
+
+"hello-title" = "こんにちは、世界!";
+
+"name %@" = "わたしは%@";
+
+
+"home-tab-title" = "ホーム";
+"profile-tab-title" = "プロフィール";
+"webpage-tab-title" = "Web ビュー";
+
+"second-view-title" = "テスト";
+
+"next-page" = "次のページ";
+
+"back-button" = "戻る";

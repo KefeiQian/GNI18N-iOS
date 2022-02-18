@@ -1,0 +1,27 @@
+PODS:
+  - GNI18N (1.0.0):
+    - SwiftyUserDefaults (~> 5.0)
+    - WKWebViewJavascriptBridge (~> 1.2)
+  - SwiftyUserDefaults (5.3.0)
+  - WKWebViewJavascriptBridge (1.2.2)
+
+DEPENDENCIES:
+  - GNI18N (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SwiftyUserDefaults
+    - WKWebViewJavascriptBridge
+
+EXTERNAL SOURCES:
+  GNI18N:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GNI18N: d5d4ce216d105d59f729f3e1336ae2c7a2a9cced
+  SwiftyUserDefaults: 63f80248cf5bfb3458825d9a78f2eb7e1293a040
+  WKWebViewJavascriptBridge: d7324badf8996486c71648f448617b09bf927b4b
+
+PODFILE CHECKSUM: c40eb0f5514cf949d7f050f7d71d204ee033d0ef
+
+COCOAPODS: 1.10.1

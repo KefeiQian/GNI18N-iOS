@@ -1,0 +1,16 @@
+<!DOCTYPE html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="favicon.ico"><title>gn-i18n-vue-demo</title><script>function setupWKWebViewJavascriptBridge(callback) {
+        if (window.WKWebViewJavascriptBridge) {
+          return callback(WKWebViewJavascriptBridge);
+        }
+        if (window.WKWVJBCallbacks) {
+          return window.WKWVJBCallbacks.push(callback);
+        }
+        window.WKWVJBCallbacks = [callback];
+        window.webkit &&
+          window.webkit.messageHandlers.iOS_Native_InjectJavascript.postMessage(
+            null
+          );
+      }
+      window.setupWKWebViewJavascriptBridge((_bridge) => {
+        window.bridge = _bridge;
+      });</script><link href="css/app.ceb13ca6.css" rel="preload" as="style"><link href="js/app.af2ed188.js" rel="preload" as="script"><link href="js/chunk-vendors.93621805.js" rel="preload" as="script"><link href="css/app.ceb13ca6.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but gn-i18n-vue-demo doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script src="js/chunk-vendors.93621805.js"></script><script src="js/app.af2ed188.js"></script></body></html>
